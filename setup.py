@@ -9,7 +9,6 @@ setup(name='atomic_loop_pkg_test',
       description='this package provides the math functions',
       long_description=long_description,
       long_description_content_type = 'text/markdown',
-      author='Mangesh',
       py_modules=['functions','greet'],
       requires=[],
       extras_requires = {
@@ -17,6 +16,9 @@ setup(name='atomic_loop_pkg_test',
                   "pytest>=3.7"
             ]
       },
+      url='https://github.com/LEO2822/python-package',
+      author='Mangesh',
+      author_email='mtkashid7@gmail.com',
       package_dir={'' : 'atomic_loop_pkg_test'},
       classifiers=["Programming Language :: Python :: 3",
                    "Programming Language :: Python :: 3.6",
